@@ -1,6 +1,39 @@
 #title {
-    text-align: center;
+  text-align: center;
+  padding-top: 40px;
 }
 #main-text {
-    text-align: center;
+  text-align: center;
+}
+#nav-bar {
+  text-align: center;
+}
+.navbar-item {
+  /* put it on top of the page */
+  position: relative;
+  top: 15;
+  background-color: blanchedalmond;
+  vertical-align: middle;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.navbar-link {
+  text-decoration: none;
+  color: darkblue;
+}
+#m {
+  width: 80%;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+h1 {
+  text-align: center;
+  /* make it bold */
+  font-weight: bold;
+  margin-top: 45px;
 }

@@ -1,28 +1,30 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <title>Expedicni dejepisna skupina</title>
-</head>
-<body>
+  </head>
+  <body>
+    <!--Navigation bar-->
+    <div id="nav-placeholder"></div>
+
+    <script>
+      $(function () {
+        $("#nav-placeholder").load("nav.html");
+      });
+    </script>
+    <!--end of Navigation bar-->
     <div id="title">
-        <h1>O nasem projektu</h1>
+      <h1>O nasem projektu</h1>
     </div>
     <div id="main-text">
-        <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime ex incidunt ipsa atque? Excepturi, consequuntur!
-
-        </p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime ex
+        incidunt ipsa atque? Excepturi, consequuntur!
+      </p>
     </div>
-    <div id="nav-bar">
-        <ul>
-            <li><a href="partyzani.html">Partyzáni</a></li>
-            <li><a href="ryba.html">Jakub Jan Ryba</a></li>
-            <li><a href="tea.html">Tea tema</a></li>
-        </ul>
-
-    </div>
-</body>
+  </body>
 </html>
